@@ -1,4 +1,5 @@
 class StudentCard {
+    static int counter = 0;
     int id;
     String name;
 
@@ -6,5 +7,6 @@ class StudentCard {
         System.out.println("StudentCardクラスのコンストラクタが呼び出されました");
         this.id = id;
         this.name = name;
+        StudentCard.counter++;
     }
 }
