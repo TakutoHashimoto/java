@@ -22,11 +22,12 @@ public class Practice {
 
     public static int getAbsoluteValue(int value) {
         // (4)
-        if (value > 0) {
-            return value;
-        } else {
-            return value * (-1);
-        }
+        // if (value > 0) {
+        //     return value;
+        // } else {
+        //     return value * (-1);
+        // }
+        return value < 0 ? -value : value;
     }
 
     public static double getAverage(double a, double b, double c) {
