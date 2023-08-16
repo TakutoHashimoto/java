@@ -3,6 +3,7 @@ class StudentCard {
     int id;
     String name;
 
+    // コンストラクタ
     StudentCard(int id, String name) {
         System.out.println("StudentCardクラスのコンストラクタが呼び出されました");
         this.id = id;
